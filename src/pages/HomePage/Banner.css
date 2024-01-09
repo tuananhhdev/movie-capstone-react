@@ -1,0 +1,19 @@
+/* Change the color of the navigation arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff; /* Replace with your desired color */
+}
+
+
+.swiper-pagination-bullet {
+  width: 12px; /* Replace with your desired width */
+  height: 12px; /* Replace with your desired height */
+  margin: 0 5px; /* Replace with your desired margin */
+}
+
+/* Change the size of the active pagination dot */
+.swiper-pagination-bullet-active {
+  width: 15px; /* Replace with your desired width */
+  height: 15px; 
+  background-color: green;/* Replace with your desired height */
+}

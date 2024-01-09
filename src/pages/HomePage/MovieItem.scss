@@ -1,0 +1,41 @@
+.movie-item {
+  position: relative;
+  transition: all 0.5s;
+&:hover .btn-film{
+    transform: translateY(10px) !important;
+}
+  &:hover .item-content {
+    display: block;
+    height: 50%;
+  }
+  & .img-movie {
+    width: 100%;
+    // position: absolute;
+  }
+
+  & .item-content {
+    // display: none;
+    transition: all 0.5s;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background-color: rgba($color: #000000, $alpha: 0.8);
+
+    .item-title {
+      color: #fff;
+    }
+  }
+}
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px 20px;
+  border-radius: 7px;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #fff;
+}

@@ -1,0 +1,8 @@
+span.ant-switch-inner {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.ant-modal .ant-modal-footer .ant-btn+.ant-btn{
+    background: blue;
+
+}
